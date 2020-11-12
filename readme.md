@@ -62,10 +62,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
-**Gehele Breakdownschets**
-<img src="images/Homepagina_AH.jpg" width="375px" alt="Breakdownschets AH">
+**Gehele Breakdownschets:**
 
-**Details Breakdownschets**
+<img src="images/Breakdownschets_AH.jpg" width="375px" alt="Breakdownschets AH">
+
+**Details Breakdownschets:**
+
 <img src="images/Breakdown_detail.jpg" width="375px" alt="Breakdownschets details">
 
 
