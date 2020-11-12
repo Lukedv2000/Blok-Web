@@ -76,7 +76,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Homepage_AH.jpg" width="375px" alt="Hoofdpagina Albert Heijn">
+<img src="images/Homepagina_AH.jpg" width="375px" alt="Hoofdpagina Albert Heijn">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
