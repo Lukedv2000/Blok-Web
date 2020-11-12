@@ -72,12 +72,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Responsive maken
 
-**Je opdracht:** [Oneplus.com](https://www.oneplus.com/nl)
+**Je opdracht:** [AH.nl](https://www.ah.nl/)
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Homepage_OnePlus.jpg" width="375px" alt="Hoofdpagina OnePlus">
+<img src="images/Homepage_AH.jpg" width="375px" alt="Hoofdpagina Albert Heijn">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/Buyingpage_OnePlus.jpg" width="375px" alt="Kooppagina Oneplus 8t">
+<img src="images/Detailpagina_Chocomel.jpg" width="375px" alt="AH detailpagina Chocomel">
