@@ -6,9 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. AH.nl
 
 
 
@@ -42,19 +40,21 @@ Coderen gaat mij altijd redelijk goed af. Ik begrijp de opdrachten goed en het g
 Het moeilijke gedeelte zat hem in de tijd die ik er in moest steken. Het koste veel tijd en die had ik soms niet. Uiteindelijk ben ik tevreden met hoever ik ben gekomen al zie ik wel dat er nog veel moet gebeuren. Ook maak ik het soms te complex voor mezelf waardoor ik er niet helemaal uitkom en het veel tijd kost dit op te lossen. Als het dan lukt is het wel een hele
 opluchting.
 
-**Screenshot(s):**
+**Screenshot:**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="media/versie_eerste_voortgang.jpg" width="375px" alt="Breakdownschets AH">
+
+In deze eerste versie is de homepage van de AH.nl website nagemaakt in HTML en CSS. Javascript zal later nog worden gebruikt voor het hamburger-menu en voor de zoekbalk. De homepage is nu voor ongeveer 2/3 af en al redelijk 'pixelperfect' in mobiel design.
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Luke                                    | Melvin    | Sam                 | Jimmy               |
+| ---                                     | ---       | ---                 | ---                 |
+| Margin: 0; werkt niet                   | n.v.t.    | Tips over de nav.   | blur nav            |
+| Elementen na relative en absolute       |           |                     | Viewport animaties? |
+| Font via telefoon anders dan op desktop |           |                     |                     |
 
 ### Verslag van meeting
 
@@ -66,15 +66,15 @@ opluchting.
 
 **Gehele Breakdownschets:**
 
-<img src="images/Breakdownschets_AH.jpg" width="375px" alt="Breakdownschets AH">
+<img src="media/Breakdownschets_AH.jpg" width="375px" alt="Breakdownschets AH">
 
 **Details Breakdownschets:**
 
-<img src="images/Breakdown_detail.jpg" width="375px" alt="Breakdownschets details">
+<img src="media/Breakdown_detail.jpg" width="375px" alt="Breakdownschets details">
 
 **Recepten Breakdownschets:**
 
-<img src="images/Breakdown_recepten.jpg" width="375px" alt="Breakdownschets van Recepten section">
+<img src="media/Breakdown_recepten.jpg" width="375px" alt="Breakdownschets van Recepten section">
 
 
 
@@ -88,8 +88,8 @@ opluchting.
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Homepagina_AH.jpg" width="375px" alt="Hoofdpagina Albert Heijn">
+<img src="media/Homepagina_AH.jpg" width="375px" alt="Hoofdpagina Albert Heijn">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/Detailpagina_Chocomel.jpg" width="375px" alt="AH detailpagina Chocomel">
+<img src="media/Detailpagina_Chocomel.jpg" width="375px" alt="AH detailpagina Chocomel">

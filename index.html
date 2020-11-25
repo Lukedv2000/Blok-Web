@@ -1,19 +1,170 @@
-<!doctype html>
-<html lang="nl">
-	
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>AH.nl</title>
 </head>
-
 <body>
-	<h1>Howdy</h1>
-	<script src="scripts/script.js"></script>
+  <header>
+<!-- *****************************************************************************************************
+    NAVIGATIE
+*****************************************************************************************************   -->
+    <nav>
+      <section class='first_part'>
+        <div>
+          <img src="media/hamburger_menu.png" alt="hamburger menu icon">
+          <p>menu</p>
+        </div>
+        <h1>
+          <span>Albert Heijn</span>
+          <a class='logo_knop' href="">
+            <img src="media/AH_logo.png" alt="Logo van Albert Heijn">
+          </a>
+        </h1>
+        <a href="">
+          <img src="media/winkelwagen.png" alt="winkelwagen logo">
+        </a>
+      </section>
+      <section class='searching'>
+<!-- ********************************************
+                  ZOEKBUTTON
+******************************************** -->
+        <button>
+          Waar ben je naar op zoek?
+          <img src="media/search_glass.svg" alt="Search glass">
+        </button>
+      </section>
+    </nav>
+  </header>
+  <main>
+<!-- *****************************************************************************************************
+                IN DE BONUS
+*****************************************************************************************************   -->
+    <section class='bonuslijst'>
+      <div>
+        <a>
+          <h2>De héle week mega scherpe deals!</h2>
+          <p>Bekijk nu alle 47 Black Friday deals! ></p>
+        </a>
+      </div>
+      <!-- Er is een <ul> met allemaal list-items (<li>). Dit zijn alle items in de bonus. Alles is met Css op de juiste positie gezet -->
+      <ul>
+
+<!-- BONUS-ITEM 1 -->
+        <li>
+          <a href="">
+            <h3>AH verse tagliatelle all'uovo</h3>
+            <img src="media/foto_voedsel/tagliatelle.jpeg" alt="Foto van pak tagliatelle">
+            <p>1 + 1 gratis</p>
+            <p><span class='hele_euros'>1.</span><span class='centen'>99</span></p>
+            <p>250 g</p>
+          </a>
+          <a href="">
+            <img src="media/add_button.png" alt="ronde oranje button met plusje">
+          </a>
+        </li>
+
+<!-- BONUS-ITEM 2 -->
+        <li>
+          <a href="">
+            <h3>Chocomel Vol</h3>
+            <img src="media/foto_voedsel/chocomel.png" alt="Chocomel pak vol">
+            <p>Voor 1.00</p>
+            <p><span class='hele_euros'>1.</span><span class='centen'>00</span></p>
+            <p>0.75 l</p>
+          </a>
+          <a href="">
+            <img src="media/add_button.png" alt="ronde oranje button met plusje">
+          </a>
+        </li>
+
+<!-- BONUS-ITEM 3         -->
+        <li>
+          <a href="">
+            <h3>AH Mandarijnen net</h3>
+            <img src="media/foto_voedsel/mandarijnen.jpeg" alt="Net AH Mandarijnen">
+            <p>Voor 0.99</p>
+            <p><span class='hele_euros'>0.</span><span class='centen'>99</span></p>
+            <p>1 kg</p>
+          </a>
+          <a href="">
+            <img src="media/add_button.png" alt="ronde oranje button met plusje">
+          </a>
+        </li>
+
+      </ul>
+    </section>
+<!-- *****************************************************************************************************
+                    MEDEDELINGEN LINKS
+*****************************************************************************************************   -->
+
+<!-- Er is een section aangemaakt met twee <a>'tjes waarin de mededeling
+zit verwerkt. Zo is alles van de mededeling een link -->
+
+    <section class='mededelingen'>
+
+<!-- CORONA MEDEDELING -->
+      <a href="" class='mededelingen'>
+        <img src="media/anderhalve_meter.jpg" alt="illustratie met anderhalve meter mededeling">
+        <section>
+          <h3>Samen blijven we alert.</h3>
+          <p>Boodschappen doen in coronatijd ></p>
+        </section>
+      </a>
+
+<!-- ONLINE BOODSCAPPEN DOEN MEDEDELING -->
+      <a href="" class='mededelingen'>
+        <img src="media/online_bezorging.png" alt="illustratie met anderhalve meter mededeling">
+        <section>
+          <h3>We bezorgen tijdelijk ook op zondag je boodschappen.</h3>
+          <p>Kies jouw bezorgmoment ></p>
+        </section>
+      </a>
+
+    </section>
+<!-- *****************************************************************************************************
+                        RECEPTEN LIJST
+*****************************************************************************************************   -->
+    <section class='recepten'>
+      <h2>Wat eten we vandaag?</h2>
+      <ul>
+<!-- RECEPT 1-->
+        <li>
+          <a href="">
+            <img class='cover_image_recepten' src="media/foto_voedsel/erwtensoep.jpg" alt="Foto Erwtensoep">
+            <div>
+              <img src="media/icons/time_icon.png" alt="klok icoon">
+              <p>75 min</p>
+              <img src="media/icons/fire_icon.png" alt="Vuur icoon">
+              <p>725 kcal</p>
+            </div>
+            <h3>Erwtensoep met chorizo en kikkererwten</h3>
+          </a>
+        </li>
+<!-- RECEPT 2-->
+        <li>
+          <a href="">
+            <img class='cover_image_recepten' src="media/foto_voedsel/lasagne.jpg" alt="Foto preilasagne">
+            <div>
+              <img src="media/icons/time_icon.png" alt="klok icoon">
+              <p>30 min</p>
+              <img src="media/icons/fire_icon.png" alt="Vuur icoon">
+              <p>980 kcal</p>
+            </div>
+            <h3>Preilasagne met spek</h3>
+          </a>
+        </li>
+      </ul>
+      <a class='full_size_button' href=""> Naar meer "Wat eten we vandaag?" recepten</a>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
 </body>
-	
 </html>

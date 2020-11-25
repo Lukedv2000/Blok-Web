@@ -1,0 +1,333 @@
+body {
+  font-family: 'Heebo', Arial, Helvetica, sans-serif;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #303030;
+}
+
+/* ******************************************************************
+NAVIGATIE
+****************************************************************** */
+
+
+nav section.first_part{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+nav div img {
+  width: 2em;
+}
+
+nav div p {
+  display: block;
+  margin: -0.4em 0 0 0;
+  padding: 0;
+  color: #ACACAC;
+  font-size: 0.65em;
+  flex-grow: 1;
+}
+
+nav h1 {
+  margin: 0;
+}
+nav h1 span{
+  display: none;
+}
+nav h1 a.logo_knop img {
+  width: 2em;
+  margin: 0 0 -0.4em 0;
+}
+
+nav a:last-of-type img {
+  width: 3.4em;
+}
+input {
+  margin: 1.5em 0.5em;
+  background-color: grey;
+}
+/* ***********************************
+------------------ZOEKEN
+*********************************** */
+section.searching {
+  display: flex;
+  justify-content: center;
+}
+section.searching button {
+  flex-grow: 1;
+  margin: 1em 1em 0 1em;
+  padding: 0.9em 1.2em 0.9em 1.4em;
+  border-radius: 10em;
+  border: none;
+  background-color: #f0f4f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #838383;
+  font-size: 1em;
+  font-weight: 300;
+}
+section.searching button img {
+  width: 1.3em;
+  flex-shrink: 0;
+}
+
+
+section.bonuslijst {
+  position: relative;
+}
+
+section.bonuslijst div {
+
+  background-image: url("../media/bonus_banner.png");
+  height: 13em;
+  background-size: cover;
+  background-position: right;
+  position: absolute;
+  width: 100%;
+}
+section.bonuslijst div a {
+  margin: 1.5em 0 0 1.5em;
+  display: block;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.5em black;
+}
+section.bonuslijst div a h2 {
+  font-weight: 700;
+  margin: 0;
+}
+section.bonuslijst div a p {
+  font-weight: 400;
+  margin: 0;
+}
+
+
+
+
+/* *******************************************************
+LIST ITEMS BONUSLIJST
+******************************************************* */
+section.bonuslijst ul {
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+  top: 10.5em;
+}
+
+section.bonuslijst ul li {
+  background-color: white;
+  list-style-type: none;
+  width: 65vw;
+  height: 13em;
+  margin: 0 0 0 1.5em;
+  position: relative;
+  box-shadow: 0.1em 0.1em 0.7em #f0f0f0;
+  flex-shrink:0;
+}
+section.bonuslijst ul li + li {
+  margin: 0 0 0 1em;
+}
+
+
+section.bonuslijst ul li a:first-of-type {
+  text-decoration: none;
+  color: black;
+}
+section.bonuslijst ul li a:first-of-type img {
+  width: 7em;
+  position: absolute;
+  left: 50%;
+  top: 0.3em;
+  transform:translate(-50%, 0);
+  z-index: 1
+
+}
+section.bonuslijst ul li a:first-of-type h3 {
+  position: absolute;
+  bottom: 2em;
+  left: 1.4em;
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 400;
+  max-width: 65%;
+  line-height: 1.2em;
+}
+section.bonuslijst ul li a:first-of-type p:first-of-type {
+  position: absolute;
+  z-index: 2;
+  top: 7.9em;
+  left: 1.8em;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 500;
+  background-color: #ff7900;
+  color: white;
+  padding: 0.1em 0.3em;
+  border-radius: 5%;
+}
+section.bonuslijst ul li a:first-of-type p:nth-of-type(2) {
+  z-index: 2;
+  position: absolute;
+  top: 3em;
+  right: 1.25em;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 600;
+}
+section.bonuslijst ul li a:first-of-type p:nth-of-type(2) span.hele_euros{
+  font-size: 1.7em;
+}
+section.bonuslijst ul li a:first-of-type p:nth-of-type(2) span.centen{
+  font-size: 0.8em;
+  margin-top: 0.4em;
+}
+section.bonuslijst ul li a:first-of-type p:nth-of-type(3) {
+  z-index: 2;
+  position: absolute;
+  top: 7.9em;
+  right: 1.8em;
+  font-size: 0.7em;
+  color: #acacac;
+}
+section.bonuslijst ul li a:last-of-type img {
+  width: 1.8em;
+  position: absolute;
+  bottom: 2em;
+  right: 0.9em;
+
+}
+
+/* ****************************************************************************
+MEDEDELING SECTIE
+**************************************************************************** */
+section.mededelingen {
+  margin-top: 12rem;
+}
+section.mededelingen a {
+  margin: 0 1rem 1rem 1rem;
+  display: block;
+  display: flex;
+  box-shadow: 0.1em 0.1em 1em #dbdbdb;
+  border-radius: 0.3em;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #303030;
+}
+section.mededelingen a img {
+  height: 100%;
+  flex-shrink: 0;
+  height: 8em;
+}
+section.mededelingen a section {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section.mededelingen a section h3 {
+  margin: 0;
+  line-height: 1.4em;
+}
+section.mededelingen a section p {
+  margin: 0;
+  color: #00ade6;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.1em;
+
+}
+
+/* ****************************************************************************
+RECEPTEN SECTIE
+**************************************************************************** */
+
+section.recepten {
+  background-color: #f9f7f5;
+  padding: 0.5rem;
+  margin: 0 0 2rem 0;
+}
+section.recepten h2 {
+  margin: 0.4rem 0 0 0.6rem;
+}
+section.recepten ul {
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+  margin: 0.5rem 0 0 0;
+}
+section.recepten li {
+  background-color: white;
+  width: 17.8rem;
+  list-style-type: none;
+  margin: 0 0 1rem 0.6rem;
+  height: 17rem;
+  box-shadow: 0.1rem 0.2rem 0.8rem #e2e2e2;
+  flex-shrink: 0;
+}
+section.recepten li + li {
+  margin-left: 1rem;
+}
+section.recepten li:last-of-type {
+  margin-right: 4rem;
+}
+section.recepten li a {
+  text-decoration: none;
+  display: block;
+  color: #303030;
+  position: relative;
+  overflow: hidden;
+  height: 100%
+}
+section.recepten li a img.cover_image_recepten {
+  width: 100%;
+  position: absolute;
+  top: -1.5rem;
+}
+section.recepten li div {
+  display: flex;
+  background-color: #f7f7f7;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 8.5rem;
+}
+section.recepten li div img {
+  width: 0.8rem;
+  height: 0.85rem;
+  flex-shrink: 0;
+  margin: 0 0.3rem 0 1em;
+}
+section.recepten li div p {
+  font-size: 0.8em;
+}
+section.recepten h3 {
+  position: absolute;
+  top: 11.5rem;
+  left: 1.5rem;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+section.recepten a.full_size_button {
+  text-decoration: none;
+  display: block;
+  color: #00ade6;
+  text-align: center;
+  border: 0.01rem solid #00ade6;
+  margin: 0.5rem 0.6rem;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+}
