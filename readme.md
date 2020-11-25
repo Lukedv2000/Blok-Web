@@ -42,7 +42,7 @@ opluchting.
 
 **Screenshot:**
 
-<img src="media/versie_eerste_voortgang.jpg" width="375px" alt="Breakdownschets AH">
+<img src="media/versie_eerste_voortgang.png" width="375px" alt="Eerste versie html en css">
 
 In deze eerste versie is de homepage van de AH.nl website nagemaakt in HTML en CSS. Javascript zal later nog worden gebruikt voor het hamburger-menu en voor de zoekbalk. De homepage is nu voor ongeveer 2/3 af en al redelijk 'pixelperfect' in mobiel design.
 
