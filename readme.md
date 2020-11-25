@@ -38,7 +38,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Coderen gaat mij altijd redelijk goed af. Ik begrijp de opdrachten goed en het gaat makkelijk.
+Het moeilijke gedeelte zat hem in de tijd die ik er in moest steken. Het koste veel tijd en die had ik soms niet. Uiteindelijk ben ik tevreden met hoever ik ben gekomen al zie ik wel dat er nog veel moet gebeuren. Ook maak ik het soms te complex voor mezelf waardoor ik er niet helemaal uitkom en het veel tijd kost dit op te lossen. Als het dan lukt is het wel een hele
+opluchting.
 
 **Screenshot(s):**
 
@@ -70,6 +72,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 <img src="images/Breakdown_detail.jpg" width="375px" alt="Breakdownschets details">
 
+**Recepten Breakdownschets:**
+
+<img src="images/Breakdown_recepten.jpg" width="375px" alt="Breakdownschets van Recepten section">
 
 
 
