@@ -26,6 +26,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
+
 ## Voortgang 2 (week 5)
 
 ### Stand van zaken
@@ -33,6 +34,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Het coderen gaat mij nog steeds goed af. Ik vind het ook leuk om te doen en dat maakt het dan ook makkelijker om er tijd in te stoppen. Want tijd kost het namelijk wel. Ik merk wel dat er wat 'kinderziektes' beginnen op te treden in mijn website waar ik te weinig kennis voor heb om deze op te lossen. Maar door online research te doen kom ik er soms nog uit. Verder merk ik dat het responsive maken van mijn website misschien teveel tijd gaat kosten. Ik kwam er ook achter dat mijn website heel erg netjes is en dat ik waarschijnlijk zelfs al bijna voldoe aan de surface-opdracht. Ik twijfel eraan over te stappen maar mogelijk doe ik ze nog beide als ik daar tijd en zin voor heb.
 
 **Screenshots:**
+
+<img src="media/homepage_tweede_voortgang.jpg" width="375px" alt="Tweede versie van AH.nl Homepage">
+
+Bij de tweede versie van de homepage is de homepage zo goed als af gemaakt. Er is verder gewerkt aan een deel van de website, er is een zoekmenu gemaakt en de footer is toegevoegd inclusief Javascript bij deze twee delen.
+
+<img src="media/detailpagina_tweede_voortgang.jpg" width="375px" alt="Tweede versie van AH.nl Chocomel detailpagina">
+
+Dit is de eerste versie van de chocomel detailpagina. De pagina is hier voor ongeveer 2/3 af. Alles wat er te zien is op de pagina is in mobiel formaat bijna af. Ik denk erover na om nog wat Javascript toe te passen waardoor er een leuk 'toevoegen aan mijn lijst'-functie bij komt. Maar allereerst moet de overige 1/3 van de pagina nog af en moeten alle 'copy paste' elementen van de hoofdpagina nog gekopieerd.
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Luke                                                                        | Melvin    | Sam                 | Jimmy               |
+| ---                                                                         | ---       | ---                 | ---                 |
+| Bij svg: Waarom is ‘stroke’ geen css eigenschap?                            | n.v.t.    | Tips over de nav.   | blur nav            |
+| Bij het drukken op een button herlaad alles ipv de js-actie te ondernemen.  |           |                     | Viewport animaties? |
+| Hoe klap ik een ‘uitklapmenu’ uit in animatie?                              |           |                     |                     |
+| Form heeft geen action. Maar weet niet wat ik moet invullen.                |           |                     |                     |
+
+
+### Verslag van meeting
+
+
 
 
 ## Voortgang 1 (week 3)
