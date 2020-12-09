@@ -28,8 +28,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+Het coderen gaat mij nog steeds goed af. Ik vind het ook leuk om te doen en dat maakt het dan ook makkelijker om er tijd in te stoppen. Want tijd kost het namelijk wel. Ik merk wel dat er wat 'kinderziektes' beginnen op te treden in mijn website waar ik te weinig kennis voor heb om deze op te lossen. Maar door online research te doen kom ik er soms nog uit. Verder merk ik dat het responsive maken van mijn website misschien teveel tijd gaat kosten. Ik kwam er ook achter dat mijn website heel erg netjes is en dat ik waarschijnlijk zelfs al bijna voldoe aan de surface-opdracht. Ik twijfel eraan over te stappen maar mogelijk doe ik ze nog beide als ik daar tijd en zin voor heb.
+
+**Screenshots:**
 
 
 ## Voortgang 1 (week 3)
@@ -58,8 +61,7 @@ In deze eerste versie is de homepage van de AH.nl website nagemaakt in HTML en C
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
+Er waren weinig aanmerkingen door de studentassistenten. Ze waren zeer enthousiast over het feit dat we al een heel eind waren met onze website. Ook werden mijn vragen besproken en heb ik goede aanknopingspunten gekregen om verder te werken.
 
 
 ## Breakdownschets (week 1)
