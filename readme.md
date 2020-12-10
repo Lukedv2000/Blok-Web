@@ -45,7 +45,6 @@ Dit is de eerste versie van de chocomel detailpagina. De pagina is hier voor ong
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
 
 | Luke                                                                        | Melvin    | Sam                 | Jimmy               |
 | ---                                                                         | ---       | ---                 | ---                 |
@@ -76,7 +75,6 @@ In deze eerste versie is de homepage van de AH.nl website nagemaakt in HTML en C
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
 
 | Luke                                    | Melvin    | Sam                 | Jimmy               |
 | ---                                     | ---       | ---                 | ---                 |
