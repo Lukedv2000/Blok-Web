@@ -49,10 +49,10 @@ Dit is de eerste versie van de chocomel detailpagina. De pagina is hier voor ong
 
 | Luke                                                                        | Melvin    | Sam                 | Jimmy               |
 | ---                                                                         | ---       | ---                 | ---                 |
-| Bij svg: Waarom is ‘stroke’ geen css eigenschap?                            | n.v.t.    | Tips over de nav.   | blur nav            |
-| Bij het drukken op een button herlaad alles ipv de js-actie te ondernemen.  |           |                     | Viewport animaties? |
-| Hoe klap ik een ‘uitklapmenu’ uit in animatie?                              |           |                     |                     |
-| Form heeft geen action. Maar weet niet wat ik moet invullen.                |           |                     |                     |
+| Bij svg: Waarom is ‘stroke’ geen css eigenschap?                            | n.v.t.    | Font die gedownload is gebruiken.         | De Apple website heeft vaak updates, hoe kan ik dat het beste aanpakken ?            |
+| Bij het drukken op een button herlaad alles ipv de js-actie te ondernemen.  |           | Hoe kan ik dit menu uit laten klappen als ik erop klik?                    |  |
+| Hoe klap ik een ‘uitklapmenu’ uit in animatie?                              |           | Moet je al een grid gebruiken op een small screen of alleen als er een breakpoint kom?  |                     |
+| Form heeft geen action. Maar weet niet wat ik moet invullen.                |           | Wat betekent de :after en de :before precies? (weet het zelf wel ongeveer)                    |                     |
 
 
 ### Verslag van meeting
