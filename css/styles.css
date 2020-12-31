@@ -43,7 +43,6 @@ nav button.hamburger {
   align-items: center;
   background-color: transparent;
   border: none;
-
 }
 nav button.hamburger img {
   width: 2rem;
@@ -505,11 +504,12 @@ FOOTER
 
 footer {
   background-color: #f5f5f5;
+  padding-bottom: 4rem;
 }
 footer section.root_links {
   padding: 1.5rem 1rem 1rem 1rem;
 }
-footer h4 {
+footer h5 {
   display: flex;
   font-size: 1rem;
   font-weight: 500;
@@ -518,28 +518,31 @@ footer h4 {
   padding: 0.5rem 0;
   border-bottom: 1px solid #f3f0eb;
 }
-footer h4.change_first_footer_header {
+footer h5.change_footer_header {
   color: #00ade6;
   border-bottom: none;
   padding: 0.5rem 0 0 0;
 }
-footer h4 svg {
+footer h5 svg {
   width: 0.6rem;
   transition: 0.3s;
 }
-footer h4 svg.change_first_arrow_svg {
+footer h5 svg.change_arrow_svg {
   transform: rotate(180deg);
   transition: 0.3s;
 }
-footer h4 svg path.change_first_arrow_path {
+footer h5 svg path.change_arrow_path {
   stroke: #00ade6;
 
 }
 footer section.root_links ul {
-    display: none;
+    height: 0;
+    overflow-y: hidden;
+
 }
-footer section.root_links ul.change_first_ul {
-  display: block;
+footer section.root_links ul.change_ul {
+    height: 100%;
+    overflow-y: auto;
 }
 footer section.root_links ul li a {
   padding: 0.7rem 0;
@@ -553,13 +556,73 @@ footer section.root_links ul li:last-of-type {
 }
 
 
+footer img.footer_icoon {
+  width: 2rem;
+  margin: 2.5rem auto 2.5rem auto;
+}
+
+footer ul.social_media {
+  display: flex;
+  width: 13rem;
+  margin: auto;
+  justify-content: space-between;
+}
+footer ul.social_media li img {
+  height: 1.8rem;
+}
+
+footer ul.extra_links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0 2rem 0;
+}
+footer ul.extra_links li a {
+  padding: 0.7rem;
+  text-decoration: none;
+  color: #303030;
+}
 
 
 
 
+div.nix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.nix img {
+  width: 4rem;
+  margin: 0 0.5rem 0 0;
+}
+div.nix a {
+  text-decoration: none;
+  color: #303030;
+  font-size: 0.7rem;
+}
 
 
 
+
+ul.keurmerken {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13rem;
+  margin: 1rem auto 0 auto;
+}
+ul.keurmerken li:nth-of-type(1) img {
+  height: 2.3rem;
+}
+ul.keurmerken li:nth-of-type(2) img {
+  height: 1.8rem;
+}
+ul.keurmerken li:nth-of-type(3) img {
+  height: 2.3rem;
+}
+ul.keurmerken li:nth-of-type(4) img {
+  height: 2rem;
+}
 /* ******************************************************************
 ********************************************************************
 -------------      DETAILPAGINA CHOCOMEL       ----------------------
@@ -829,4 +892,201 @@ section.voedingswaarden p:last-of-type {
   font-size: 0.75rem;
   font-weight: 300;
   margin: 0.5rem 0;
+}
+
+/***************************************
+EXTRA INFO
+**************************************/
+
+section.extra_info h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.15rem 1.5rem 1.15rem 1rem;
+  margin: 4rem 0 0 0;
+  border: 1px solid #e1ddd7;
+}
+section.extra_info h4:nth-of-type(2) {
+  margin: -1px 0 0 0;
+}
+section.extra_info h4:nth-of-type(3) {
+  margin: -1px 0 0 0;
+}
+section.extra_info h4 span img {
+  height: 0.7rem;
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+section.extra_info h4 span img.gedraaid {
+  transform: rotate(270deg);
+  transition: 0.3s;
+}
+section.extra_info div {
+  max-height: 0;
+  overflow: hidden;
+}
+section.extra_info div p {
+  line-height: 1.5rem;
+}
+section.extra_info div h5 {
+  font-size: 1rem;
+  margin: 0 0 0.3rem 0;
+}
+section.extra_info div a {
+  text-decoration: none;
+  color: #00ade6;
+  display: block;
+}
+section.extra_info div a:last-of-type {
+  margin: 0.2rem 0 0 0;
+}
+section.extra_info div.uitgeklapt {
+  max-height: none;
+  margin: 1.3rem 1rem 3rem 1rem;
+}
+
+/***************************************
+ANDEREN KOCHTEN OOK
+**************************************/
+
+section.anderen_kochten_ook h3 {
+  margin: 3rem 0 1rem 0.3rem;
+}
+section.anderen_kochten_ook ul li {
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+section.anderen_kochten_ook ul li a {
+  display: flex;
+  align-items: center;
+  color: #303030;
+  text-decoration: none;
+
+}
+section.anderen_kochten_ook ul li a:first-of-type img {
+  width: 8.2rem;
+  height: 8.2rem;
+  padding: 1rem;
+}
+section.anderen_kochten_ook ul li a div {
+  padding: 1rem 1rem 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section.anderen_kochten_ook ul li a div h4 {
+  font-weight: 400;
+  max-height: 2.4rem;
+  overflow: hidden;
+}
+section.anderen_kochten_ook ul li a div p.normale_prijzen {
+  display: flex;
+  align-items: flex-start;
+
+}
+section.anderen_kochten_ook ul li a div p.normale_prijzen span:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: 600;
+}
+section.anderen_kochten_ook ul li a div p.normale_prijzen span:nth-of-type(2) {
+  font-weight: 500;
+  margin-top: 0.2rem;
+}
+section.anderen_kochten_ook ul li a div p.normale_prijzen span:nth-of-type(3) {
+  align-self: flex-end;
+  font-size: 0.75rem;
+  margin: 0 0 0.3rem 0.4rem;
+  color: #acacac;
+}
+section.anderen_kochten_ook ul li a:last-of-type img {
+  width: 2.1rem;
+  height: 2.2rem;
+}
+
+
+/* Speciale prijzen  */
+
+section.anderen_kochten_ook ul li a div p.extra_tekst {
+  color: #ff7900;
+  font-weight: 600;
+}
+section.anderen_kochten_ook ul li a div p.extra_tekst span {
+  font-weight: 400;
+}
+section.anderen_kochten_ook ul li a div p.speciale_prijzen {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+section.anderen_kochten_ook ul li a div p.speciale_prijzen span:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ff7900;
+}
+section.anderen_kochten_ook ul li a div p.speciale_prijzen span:nth-of-type(2) {
+  font-weight: 500;
+  margin-top: 0.2rem;
+  color: #ff7900;
+}
+section.anderen_kochten_ook ul li a div p.speciale_prijzen span:nth-of-type(3) {
+  align-self: flex-end;
+  font-size: 0.7rem;
+  margin: 0 0 0.3rem 0.4rem;
+  text-decoration: line-through
+}
+section.anderen_kochten_ook ul li a div p.speciale_prijzen span:nth-of-type(4) {
+  align-self: flex-end;
+  font-size: 0.75rem;
+  margin: 0 0 0.3rem 0.3rem;
+  color: #acacac;
+}
+section.anderen_kochten_ook ul li a:last-of-type {
+  position: absolute;
+  bottom: 1.2rem;
+  right: 1rem;
+}
+section.anderen_kochten_ook ul li a:last-of-type img.orange_button {
+  width: 1.95rem;
+  height: 1.95rem;
+}
+
+
+
+/***************************************
+OVER PRODUCTINFORMATIE
+**************************************/
+
+
+p.over_productinformatie {
+  color: #838383;
+  margin: 4rem 0 0.5rem 0;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+p.over_productinformatie span {
+  font-weight: 500;
+}
+
+
+/***************************************
+BREADCRUMBS
+**************************************/
+
+section.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem 1rem 1.5rem 1rem;
+}
+section.breadcrumbs a{
+  text-decoration: none;
+  color: #838383;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 0 0.5rem 0 0;
+}
+section.breadcrumbs img {
+  width: 0.8rem;
+  margin: 0 0.5rem 0 0;
+  flex-shrink: 0;
 }
