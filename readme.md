@@ -16,8 +16,10 @@ Het was voor mij een goede oefening om alle principes van html, css en javascrip
 
 **Screenshot(s):**
 
-Homepage:
+**Homepage:**
+
 <img src="media/eindresultaat_homepage.jpg" width="375px" alt="Eindversie homepage">
+
 In de homepage zijn twee microinteracties uitgewerkt. De eerste bevindt zich bij de zoekbalk. Als je daarop drukt ontstaat het zoekvenster. De tweede microinteractie is bij de footer. Daar kan je meerdere dropdown menu's laten uitklappen waardoor meer opties tevoorschijn komen.
 
 Om bij de tweede pagina te komen:
@@ -25,8 +27,10 @@ Ga naar de bonuslijst bovenaan de pagina en klik op de chocomel of gebruik deze 
 https://lukedv2000.github.io/Blok-Web/detailpagina_chocomel.html
 
 
-Chocomel Detailpagina:
+**Detailpagina Chocomel:**
+
 <img src="media/eindresultaat_detailpagina.jpg" width="375px" alt="Eindversie detailpagina chocomel">
+
 In de chocomelpagina is één microinteractie uitgewerkt. Deze is te vinden bij de extra info. Hier zijn dropdowns te vinden met extra info over het product.
 
 ## Voortgang 3 (week 6)
