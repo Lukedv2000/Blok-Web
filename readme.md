@@ -1,25 +1,33 @@
 # Procesverslag
 **Auteur:** -Luke de Vries-
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
 
 ## Bronnenlijst
-1. AH.nl
+1. https://www.ah.nl/
+2. https://www.ah.nl/producten/product/wi2465/chocomel-vol
 
 
 
 ## Eindgesprek (week 7/8)
 
-Ik vond eigenlijk niks echt heel erg lastig in het maken van de Albert Heijn website. Sommige taken heb ik uiteindelijk echter laten schieten door tijdgebrek. Denk daarbij aan het toevoegen van een artikel aan het winkelmandje. Dit zou met javascript en css nog veel tijd kosten en die had ik richting het einde niet meer. Wel heb ik aan de voorwaarden voldaan volgens mij en heb ik naar mijn idee een net eindresultaat weten neer te zetten.
+Ik vond eigenlijk niks echt heel erg lastig in het maken van de Albert Heijn website. Sommige taken heb ik echter laten schieten door tijdgebrek. Denk daarbij aan het toevoegen van een artikel aan het winkelmandje. Dit zou met javascript en css nog veel tijd kosten en die had ik richting het einde niet meer. Wel heb ik aan de voorwaarden voldaan volgens mij en heb ik naar mijn idee een net eindresultaat weten neer te zetten.
+
+Het was voor mij een goede oefening om alle principes van html, css en javascript nog een keer door te nemen, en intussen heb ik bepaalde onderwerpen beter geleerd of nieuw geleerd. 'position: absolute' en 'position: relative' Wist ik nog weinig vanaf, maar er is daar een wereld voor mij opengegaan en nu kan ik mij niet meer voorstellen dat ik het zonder heb gedaan. Ook grid was nieuw voor mij en ook dit bleek handig. Echter heb ik daar nog minder gebruik van gemaakt.
 
 **Screenshot(s):**
 
 Homepage:
-<img src="media/homepage_tweede_voortgang.jpg" width="375px" alt="Tweede versie van AH.nl Homepage">
-In de homepage zijn twee microinteracties uitgewerkt. De eerste bevindt zich bij de zoekbalk. Als je daarop drukt ontstaat het zoekvenster. De tweede microinteractie is bij de footer. Daar kan je meerdere dropdown menu's laten uitklappen waardoor meer opties tevoorschijn komen. 
+<img src="media/eindresultaat_homepage.jpg" width="375px" alt="Eindversie homepage">
+In de homepage zijn twee microinteracties uitgewerkt. De eerste bevindt zich bij de zoekbalk. Als je daarop drukt ontstaat het zoekvenster. De tweede microinteractie is bij de footer. Daar kan je meerdere dropdown menu's laten uitklappen waardoor meer opties tevoorschijn komen.
 
+Om bij de tweede pagina te komen:
+Ga naar de bonuslijst bovenaan de pagina en klik op de chocomel of gebruik deze link:
+https://lukedv2000.github.io/Blok-Web/detailpagina_chocomel.html
+
+
+Chocomel Detailpagina:
+<img src="media/eindresultaat_detailpagina.jpg" width="375px" alt="Eindversie detailpagina chocomel">
+In de chocomelpagina is één microinteractie uitgewerkt. Deze is te vinden bij de extra info. Hier zijn dropdowns te vinden met extra info over het product.
 
 ## Voortgang 3 (week 6)
 
