@@ -12,19 +12,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik vond eigenlijk niks echt heel erg lastig in het maken van de Albert Heijn website. Sommige taken heb ik uiteindelijk echter laten schieten door tijdgebrek. Denk daarbij aan het toevoegen van een artikel aan het winkelmandje. Dit zou met javascript en css nog veel tijd kosten en die had ik richting het einde niet meer. Wel heb ik aan de voorwaarden voldaan volgens mij en heb ik naar mijn idee een net eindresultaat weten neer te zetten.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
+Homepage:
+<img src="media/homepage_tweede_voortgang.jpg" width="375px" alt="Tweede versie van AH.nl Homepage">
+In de homepage zijn twee microinteracties uitgewerkt. De eerste bevindt zich bij de zoekbalk. Als je daarop drukt ontstaat het zoekvenster. De tweede microinteractie is bij de footer. Daar kan je meerdere dropdown menu's laten uitklappen waardoor meer opties tevoorschijn komen. 
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+In deze voortgang had ik eigenlijk geen vragen. Het coderen had even op pauze gestaan door andere deadlines dus er is weinig voortang geweest met de week ervoor. Ik liep ook al ruim op schema dus er was ruimte om wat minder te doen.
 
 
+### Agenda voor meeting
+
+Er zijn van te voren geen duidelijke agendapunten besproken en er waren maar twee mensen aanwezig tijdens het voortgangsgesprek.
+
+
+### Verslag van meeting
+
+Ik heb met de studentassistenten nog even mijn werk doorgenomen. Die zeiden dat ik erg goed op weg was en waarschijnlijk wel al op het niveau zat voor een voldoende. Dit gaf mij vertrouwen en ik kon daardoor gemotiveerd verder met de website.
 
 
 ## Voortgang 2 (week 5)
@@ -56,7 +67,7 @@ Dit is de eerste versie van de chocomel detailpagina. De pagina is hier voor ong
 
 ### Verslag van meeting
 
-
+De meeting verliep erg goed. Ik heb vragen kunnen stellen over mijn problemen. Hierop heb ik duidelijk antwoord gekregen en ik kon ermee verder.
 
 
 ## Voortgang 1 (week 3)

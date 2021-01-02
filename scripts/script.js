@@ -21,9 +21,9 @@ backArrow.addEventListener("click", openSearchBox);
   //Boodschappen
 
 
-  var footerBoodschappen = document.querySelector('h5:nth-of-type(1)');
-  var footerBoodschappenArrowSvg = document.querySelector('h5:nth-of-type(1) svg');
-  var footerBoodschappenArrowPath = document.querySelector('h5:nth-of-type(1) path');
+  var footerBoodschappen = document.querySelector('footer h5:nth-of-type(1)');
+  var footerBoodschappenArrowSvg = document.querySelector('footer h5:nth-of-type(1) svg');
+  var footerBoodschappenArrowPath = document.querySelector('footer h5:nth-of-type(1) path');
   var footerBoodschappenUl = document.querySelector('section.root_links ul:nth-of-type(1)');
 
   footerBoodschappen.addEventListener('click', inEnUitklappenBoodschappen);
@@ -105,7 +105,7 @@ function inEnUitKlappenGebruik() {
 }
 
 
-//Bewaren
+  //Bewaren
 
 var extraInfoBewaren = document.querySelector('section.extra_info h4:nth-of-type(2)');
 var divBewaren = document.querySelector('section.extra_info div:nth-of-type(2)');
@@ -119,7 +119,7 @@ function inEnUitKlappenBewaren() {
 }
 
 
-//Contactgegevens
+  //Contactgegevens
 
 var extraInfoContactgegevens = document.querySelector('section.extra_info h4:nth-of-type(3)');
 var divContactgegevens = document.querySelector('section.extra_info div:nth-of-type(3)');
