@@ -6,6 +6,26 @@
 1. https://www.ah.nl/
 2. https://www.ah.nl/producten/product/wi2465/chocomel-vol
 
+## Toegankelijkheidstest
+
+**Toegankelijkheid Voice Over**
+
+Wat mij opvalt aan de toegankelijkheid is dat eigenlijk alles er wel in zit. Alles wat nodig is dat wordt uitgesproken wordt daadwerkelijk voorgelezen. Wel zijn er een aantal punten die het onlogisch en onduidelijk maken voor iemand die de website niet kan zien.
+
+Het gaat bijvoorbeeld om het hamburger menu. Omdat dit een button is met een div wordt de button tweemaal genoemd. Het kan dan overkomen alsof er twee hamburger menu’s zijn. Dit is natuurlijk niet de bedoeling.
+
+Een ander punt is een recept. Hier worden door de voice over eerst de bereidingstijd en de calorieën genoemd en dan pas wat het recept is. Dit is natuurlijk niet handig. Je wilt namelijk eerst weten wat het recept is en dan pas details.
+
+Wat daarentegen erg goed werkte was de footer. Hierin waren headers aanwezig met daarin een list met links. Ik vond dit door de voice over zeer duidelijk uitgesproken. Aan de footerlinks zou ik daarom niks meer hoeven veranderen.
+
+Er was ook een dilemma wat ik tegenkwam op de detailpagina van Chocomel. Hierin stond de oude prijs doorgestreept. In mijn W3C controle kon het element ‘<strike>’ niet gebruikt worden om de prijs door te strepen omdat dit verouderd was. Dus was mijn oplossing om dit in css te doen. Maar wat dit als neveneffect had was dat de voice over dit niet zag en gewoon die prijs uitsprak. Voor iemand met een screenreader is het dan onmogelijk om te achterhalen wat de huidige prijs is van de Chocomel. Een mogelijke oplossing kan zijn om voor de doorgestreepte ‘1.65’ de tekst ‘oude prijs:’ neer te zetten.
+
+
+**Toegankelijkheid met ‘Tab’**
+
+Met de tab door de detailpagina ging zeer goed. Hier was alles vanzelfsprekend in orde. Waar het probleem ontstond was bij de index pagina. Hier werkten niet alle klikbare elementen met de tab. Bij elke tab werd het element wel geselecteerd maar ontstond geen border waardoor je soms meerdere keren op tab moest drukken voor je weer een element zag. Hier heb ik meerdere oplossingen voor proberen te vinden met ‘:focus’, maar op enkele plaatsen op de homepagina is dit niet gelukt. Dit is vooral het geval bij de ‘bonuslijst’. Sommige elementen worden daar nu wel geselecteerd en anderen niet. Omdat ik niet over genoeg kennis beschikte kon ik hier geen veranderingen meer in aanbrengen.
+
+Het is daarentegen wel gelukt om de footer toegankelijker te maken met de tab, door klikbare h5’jes te veranderen in <button>’s waardoor deze opeens wel interactief werden en bestuurbaar zijn nu.
 
 
 ## Eindgesprek (week 7/8)

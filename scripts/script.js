@@ -21,9 +21,9 @@ backArrow.addEventListener("click", openSearchBox);
   //Boodschappen
 
 
-  var footerBoodschappen = document.querySelector('footer h5:nth-of-type(1)');
-  var footerBoodschappenArrowSvg = document.querySelector('footer h5:nth-of-type(1) svg');
-  var footerBoodschappenArrowPath = document.querySelector('footer h5:nth-of-type(1) path');
+  var footerBoodschappen = document.querySelector('footer button:nth-of-type(1)');
+  var footerBoodschappenArrowSvg = document.querySelector('footer button:nth-of-type(1) svg');
+  var footerBoodschappenArrowPath = document.querySelector('footer button:nth-of-type(1) path');
   var footerBoodschappenUl = document.querySelector('section.root_links ul:nth-of-type(1)');
 
   footerBoodschappen.addEventListener('click', inEnUitklappenBoodschappen);
@@ -38,9 +38,9 @@ backArrow.addEventListener("click", openSearchBox);
 
   //Allerhande
 
-  var footerAllerhande = document.querySelector('h5:nth-of-type(2)');
-  var footerAllerhandeArrowSvg = document.querySelector('h5:nth-of-type(2) svg');
-  var footerAllerhandeArrowPath = document.querySelector('h5:nth-of-type(2) path');
+  var footerAllerhande = document.querySelector('button:nth-of-type(2)');
+  var footerAllerhandeArrowSvg = document.querySelector('button:nth-of-type(2) svg');
+  var footerAllerhandeArrowPath = document.querySelector('button:nth-of-type(2) path');
   var footerAllerhandeUl = document.querySelector('section.root_links ul:nth-of-type(2)');
 
   footerAllerhande.addEventListener('click', inEnUitklappenAllerhande);
@@ -55,9 +55,9 @@ backArrow.addEventListener("click", openSearchBox);
 
   //Services
 
-  var footerServices = document.querySelector('h5:nth-of-type(3)');
-  var footerServicesArrowSvg = document.querySelector('h5:nth-of-type(3) svg');
-  var footerServicesArrowPath = document.querySelector('h5:nth-of-type(3) path');
+  var footerServices = document.querySelector('button:nth-of-type(3)');
+  var footerServicesArrowSvg = document.querySelector('button:nth-of-type(3) svg');
+  var footerServicesArrowPath = document.querySelector('button:nth-of-type(3) path');
   var footerServicesUl = document.querySelector('section.root_links ul:nth-of-type(3)');
 
   footerServices.addEventListener('click', inEnUitklappenServices);
@@ -72,9 +72,9 @@ backArrow.addEventListener("click", openSearchBox);
 
   //Albert Heijn
 
-  var footerAlbertHeijn = document.querySelector('h5:nth-of-type(4)');
-  var footerAlbertHeijnArrowSvg = document.querySelector('h5:nth-of-type(4) svg');
-  var footerAlbertHeijnArrowPath = document.querySelector('h5:nth-of-type(4) path');
+  var footerAlbertHeijn = document.querySelector('button:nth-of-type(4)');
+  var footerAlbertHeijnArrowSvg = document.querySelector('button:nth-of-type(4) svg');
+  var footerAlbertHeijnArrowPath = document.querySelector('button:nth-of-type(4) path');
   var footerAlbertHeijnUl = document.querySelector('section.root_links ul:nth-of-type(4)');
 
   footerAlbertHeijn.addEventListener('click', inEnUitklappenAlbertHeijn);

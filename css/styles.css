@@ -211,6 +211,9 @@ section.bonuslijst div a p {
   font-weight: 400;
   margin: 0.7rem 0 0 0;
 }
+section.bonuslijst div a:focus {
+  color: #00ade6;
+}
 
 
 /* *******************************************************
@@ -242,6 +245,9 @@ section.bonuslijst ul li + li {
 section.bonuslijst ul li a:first-of-type {
   text-decoration: none;
   color: black;
+}
+section.bonuslijst ul li a:focus {
+  color: #00ade6;
 }
 section.bonuslijst ul li a:first-of-type img {
   width: 7em;
@@ -304,8 +310,8 @@ section.bonuslijst ul li a:last-of-type img {
   position: absolute;
   bottom: 2em;
   right: 0.9em;
-
 }
+
 
 /* ****************************************************************************
 MEDEDELING SECTIE
@@ -509,8 +515,13 @@ footer {
 footer section.root_links {
   padding: 1.5rem 1rem 1rem 1rem;
 }
-footer h5 {
+footer button {
   display: flex;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
   font-size: 1rem;
   font-weight: 500;
   justify-content: space-between;
@@ -518,22 +529,26 @@ footer h5 {
   padding: 0.5rem 0;
   border-bottom: 1px solid #f3f0eb;
 }
-footer h5.change_footer_header {
+footer button:focus  {
+  outline: none;
+  color: #00ade6;
+
+}
+footer button.change_footer_header {
   color: #00ade6;
   border-bottom: none;
   padding: 0.5rem 0 0 0;
 }
-footer h5 svg {
+footer button svg {
   width: 0.6rem;
   transition: 0.3s;
 }
-footer h5 svg.change_arrow_svg {
+footer button svg.change_arrow_svg {
   transform: rotate(180deg);
   transition: 0.3s;
 }
-footer h5 svg path.change_arrow_path {
+footer button svg path.change_arrow_path {
   stroke: #00ade6;
-
 }
 footer section.root_links ul {
     height: 0;
