@@ -18,7 +18,7 @@ Een ander punt is een recept. Hier worden door de voice over eerst de bereidings
 
 Wat daarentegen erg goed werkte was de footer. Hierin waren headers aanwezig met daarin een list met links. Ik vond dit door de voice over zeer duidelijk uitgesproken. Aan de footerlinks zou ik daarom niks meer hoeven veranderen.
 
-Er was ook een dilemma wat ik tegenkwam op de detailpagina van Chocomel. Hierin stond de oude prijs doorgestreept. In mijn W3C controle kon het element ‘<strike>’ niet gebruikt worden om de prijs door te strepen omdat dit verouderd was. Dus was mijn oplossing om dit in css te doen. Maar wat dit als neveneffect had was dat de voice over dit niet zag en gewoon die prijs uitsprak. Voor iemand met een screenreader is het dan onmogelijk om te achterhalen wat de huidige prijs is van de Chocomel. Een mogelijke oplossing kan zijn om voor de doorgestreepte ‘1.65’ de tekst ‘oude prijs:’ neer te zetten.
+Er was ook een dilemma wat ik tegenkwam op de detailpagina van Chocomel. Hierin stond de oude prijs doorgestreept. In mijn W3C controle kon het element ‘<strike></strike>’ niet gebruikt worden om de prijs door te strepen omdat dit verouderd was. Dus was mijn oplossing om dit in css te doen. Maar wat dit als neveneffect had was dat de voice over dit niet zag en gewoon die prijs uitsprak. Voor iemand met een screenreader is het dan onmogelijk om te achterhalen wat de huidige prijs is van de Chocomel. Een mogelijke oplossing kan zijn om voor de doorgestreepte ‘1.65’ de tekst ‘oude prijs:’ neer te zetten.
 
 
 **Toegankelijkheid met ‘Tab’**
