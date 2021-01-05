@@ -38,9 +38,9 @@ backArrow.addEventListener("click", openSearchBox);
 
   //Allerhande
 
-  var footerAllerhande = document.querySelector('button:nth-of-type(2)');
-  var footerAllerhandeArrowSvg = document.querySelector('button:nth-of-type(2) svg');
-  var footerAllerhandeArrowPath = document.querySelector('button:nth-of-type(2) path');
+  var footerAllerhande = document.querySelector('footer button:nth-of-type(2)');
+  var footerAllerhandeArrowSvg = document.querySelector('footer button:nth-of-type(2) svg');
+  var footerAllerhandeArrowPath = document.querySelector('footer button:nth-of-type(2) path');
   var footerAllerhandeUl = document.querySelector('section.root_links ul:nth-of-type(2)');
 
   footerAllerhande.addEventListener('click', inEnUitklappenAllerhande);
