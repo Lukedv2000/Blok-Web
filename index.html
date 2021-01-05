@@ -1,364 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <title>AH.nl</title>
-</head>
-<body>
-  <header>
-<!-- *****************************************************************************************************
-    NAVIGATIE
-*****************************************************************************************************   -->
-    <nav>
-      <section class='first_part'>
-        <button class='hamburger'>
-          <img src="media/hamburger_menu.png" alt="hamburger menu icon">
-          <span>menu</span>
-        </button>
-        <h1>
-          <span>Albert Heijn</span>
-          <a class='logo_knop' href="">
-            <img src="media/AH_logo.png" alt="Logo van Albert Heijn">
-          </a>
-        </h1>
-        <a href="">
-          <img src="media/winkelwagen.png" alt="winkelwagen logo">
-        </a>
-      </section>
-<!-- ********************************************
-                        ZOEKBUTTON
-******************************************** -->
-      <section class='searching'>
-        <button class='open_searchbox'>
-          Waar ben je naar op zoek?
-          <img src="media/search_glass.svg" alt="Search glass">
-        </button>
-        <form action="">
-          <div>
-            <input placeholder="Zoeken" type="text">
-            <button><img src="media/icons/back_arrow.png" alt="terug"></button>
-            <button><img src="media/icons/search_glass_white.png" alt="zoekbutton"></button>
-          </div>
-        </form>
-      </section>
-    </nav>
-  </header>
-  <main>
-<!-- *****************************************************************************************************
-                IN DE BONUS
-*****************************************************************************************************   -->
-    <section class='bonuslijst'>
-      <div>
-        <a>
-          <h2>De héle week mega scherpe deals!</h2>
-          <p>Bekijk nu alle 47 Black Friday deals! ></p>
-        </a>
-      </div>
-      <!-- Er is een <ul> met allemaal list-items (<li>). Dit zijn alle items in de bonus. Alles is met Css op de juiste positie gezet -->
-      <ul>
-
-        <!-- BONUS-ITEM 1 -->
-
-        <li>
-          <a href="">
-            <h3>AH verse tagliatelle all'uovo</h3>
-            <img src="media/foto_voedsel/tagliatelle.jpeg" alt="Foto van pak tagliatelle">
-            <p>1 + 1 gratis</p>
-            <p><span class='hele_euros'>1.</span><span class='centen'>99</span></p>
-            <p>250 g</p>
-          </a>
-          <a href="">
-            <img src="media/add_button.png" alt="ronde oranje button met plusje">
-          </a>
-        </li>
-
-        <!-- BONUS-ITEM 2 -->
-
-        <li>
-          <a href="detailpagina_chocomel.html">
-            <h3>Chocomel Vol</h3>
-            <img src="media/foto_voedsel/chocomel.png" alt="Chocomel pak vol">
-            <p>Voor 1.00</p>
-            <p><span class='hele_euros'>1.</span><span class='centen'>00</span></p>
-            <p>0.75 l</p>
-          </a>
-          <a href="">
-            <img src="media/add_button.png" alt="ronde oranje button met plusje">
-          </a>
-        </li>
-
-        <!-- BONUS-ITEM 3  -->
-
-        <li>
-          <a href="">
-            <h3>AH Mandarijnen net</h3>
-            <img src="media/foto_voedsel/mandarijnen.jpeg" alt="Net AH Mandarijnen">
-            <p>Voor 0.99</p>
-            <p><span class='hele_euros'>0.</span><span class='centen'>99</span></p>
-            <p>1 kg</p>
-          </a>
-          <a href="">
-            <img src="media/add_button.png" alt="ronde oranje button met plusje">
-          </a>
-        </li>
-
-      </ul>
-    </section>
-<!-- *****************************************************************************************************
-                    MEDEDELINGEN LINKS
-*****************************************************************************************************   -->
-
-<!-- Er is een section aangemaakt met twee <a>'tjes waarin de mededeling
-zit verwerkt. Zo is alles van de mededeling een link -->
-
-    <section class='mededelingen'>
-
-      <!-- CORONA MEDEDELING -->
-
-      <a href="" class='mededelingen'>
-        <img src="media/anderhalve_meter.jpg" alt="illustratie met anderhalve meter mededeling">
-        <section>
-          <h3>Samen blijven we alert.</h3>
-          <p>Boodschappen doen in coronatijd ></p>
-        </section>
-      </a>
-
-      <!-- ONLINE BOODSCAPPEN DOEN MEDEDELING -->
-
-      <a href="" class='mededelingen'>
-        <img src="media/online_bezorging.png" alt="illustratie met anderhalve meter mededeling">
-        <section>
-          <h3>We bezorgen tijdelijk ook op zondag je boodschappen.</h3>
-          <p>Kies jouw bezorgmoment ></p>
-        </section>
-      </a>
-
-    </section>
-<!-- *****************************************************************************************************
-                        RECEPTEN LIJST
-*****************************************************************************************************   -->
-    <section class='recepten'>
-      <h2>Wat eten we vandaag?</h2>
-      <ul>
-
-        <!-- RECEPT 1-->
-
-        <li>
-          <a href="">
-            <img class='cover_image_recepten' src="media/foto_voedsel/erwtensoep.jpg" alt="Foto Erwtensoep">
-            <div>
-              <img src="media/icons/time_icon.png" alt="klok icoon">
-              <p>75 min</p>
-              <img src="media/icons/fire_icon.png" alt="Vuur icoon">
-              <p>725 kcal</p>
-            </div>
-            <h3>Erwtensoep met chorizo en kikkererwten</h3>
-          </a>
-        </li>
-
-        <!-- RECEPT 2-->
-
-        <li>
-          <a href="">
-            <img class='cover_image_recepten' src="media/foto_voedsel/lasagne.jpg" alt="Foto preilasagne">
-            <div>
-              <img src="media/icons/time_icon.png" alt="klok icoon">
-              <p>30 min</p>
-              <img src="media/icons/fire_icon.png" alt="Vuur icoon">
-              <p>980 kcal</p>
-            </div>
-            <h3>Preilasagne met spek</h3>
-          </a>
-        </li>
-      </ul>
-      <a class='full_size_button' href=""> Naar meer "Wat eten we vandaag?" recepten</a>
-    </section>
-
-    <!-- *****************************************************************************************************
-                            UITGEBREID SHOPPEN LIJST
-    *****************************************************************************************************   -->
-
-    <section class='uitgebreid_shoppen'>
-      <h2>Uitgebreid shoppen</h2>
-      <ul>
-        <li class="uitgebreid_shoppen_li_1">
-          <a href="">
-            <div>
-              <h3>Ga stralend december in.</h3>
-              <p>Bekijk de actieproducten<span><img src="media/icons/arrow.png" alt="arrow"></span></p>
-            </div>
-            <img src="media/uitgebreid_shoppen/nivea_promo.png" alt="Niveau producten tot 50% korting">
-          </a>
-        </li>
-        <li class="uitgebreid_shoppen_li_2">
-          <a href="">
-            <div>
-              <h3>Ga stralend december in.</h3>
-              <p>Bestel de mooiste wijncadeaus<span><img src="media/icons/arrow.png" alt="arrow"></span></p>
-            </div>
-            <img src="media/uitgebreid_shoppen/wijn_promo.png" alt="Niveau producten tot 50% korting">
-          </a>
-        </li>
-      </ul>
-    </section>
-  </main>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>AH.nl</title>
+  </head>
+  <body>
+    <header>
   <!-- *****************************************************************************************************
-                                              FOOTER
+      NAVIGATIE
+  *****************************************************************************************************   -->
+      <nav>
+        <section class='first_part'>
+          <button class='hamburger'>
+            <img src="media/hamburger_menu.png" alt="hamburger menu icon">
+            <span>menu</span>
+          </button>
+          <h1>
+            <span>Albert Heijn</span>
+            <a class='logo_knop' href="">
+              <img src="media/AH_logo.png" alt="Logo van Albert Heijn">
+            </a>
+          </h1>
+          <a href="">
+            <img src="media/winkelwagen.png" alt="winkelwagen logo">
+          </a>
+        </section>
+  <!-- ********************************************
+                          ZOEKBUTTON
+  ******************************************** -->
+        <section class='searching'>
+          <button class='open_searchbox'>
+            Waar ben je naar op zoek?
+            <img src="media/search_glass.svg" alt="Search glass">
+          </button>
+          <form action="">
+            <div>
+              <input placeholder="Zoeken" type="text">
+              <button><img src="media/icons/back_arrow.png" alt="terug"></button>
+              <button><img src="media/icons/search_glass_white.png" alt="zoekbutton"></button>
+            </div>
+          </form>
+        </section>
+      </nav>
+    </header>
+    <main>
+  <!-- *****************************************************************************************************
+                  IN DE BONUS
+  *****************************************************************************************************   -->
+      <section class='bonuslijst'>
+        <div>
+          <a>
+            <h2>De héle week mega scherpe deals!</h2>
+            <p>Bekijk nu alle 47 Black Friday deals! ></p>
+          </a>
+        </div>
+        <!-- Er is een <ul> met allemaal list-items (<li>). Dit zijn alle items in de bonus. Alles is met Css op de juiste positie gezet -->
+        <ul>
+
+          <!-- BONUS-ITEM 1 -->
+
+          <li>
+            <a href="">
+              <h3>AH verse tagliatelle all'uovo</h3>
+              <img src="media/foto_voedsel/tagliatelle.jpeg" alt="Foto van pak tagliatelle">
+              <p>1 + 1 gratis</p>
+              <p><span class='hele_euros'>1.</span><span class='centen'>99</span></p>
+              <p>250 g</p>
+            </a>
+            <a href="">
+              <img src="media/add_button.png" alt="ronde oranje button met plusje">
+            </a>
+          </li>
+
+          <!-- BONUS-ITEM 2 -->
+
+          <li>
+            <a href="detailpagina_chocomel.html">
+              <h3>Chocomel Vol</h3>
+              <img src="media/foto_voedsel/chocomel.png" alt="Chocomel pak vol">
+              <p>Voor 1.00</p>
+              <p><span class='hele_euros'>1.</span><span class='centen'>00</span></p>
+              <p>0.75 l</p>
+            </a>
+            <a href="">
+              <img src="media/add_button.png" alt="ronde oranje button met plusje">
+            </a>
+          </li>
+
+          <!-- BONUS-ITEM 3  -->
+
+          <li>
+            <a href="">
+              <h3>AH Mandarijnen net</h3>
+              <img src="media/foto_voedsel/mandarijnen.jpeg" alt="Net AH Mandarijnen">
+              <p>Voor 0.99</p>
+              <p><span class='hele_euros'>0.</span><span class='centen'>99</span></p>
+              <p>1 kg</p>
+            </a>
+            <a href="">
+              <img src="media/add_button.png" alt="ronde oranje button met plusje">
+            </a>
+          </li>
+
+        </ul>
+      </section>
+  <!-- *****************************************************************************************************
+                      MEDEDELINGEN LINKS
   *****************************************************************************************************   -->
 
-  <footer>
+  <!-- Er is een section aangemaakt met twee <a>'tjes waarin de mededeling
+  zit verwerkt. Zo is alles van de mededeling een link -->
 
-<!-- LINKS -->
+      <section class='mededelingen'>
 
-    <section class="root_links">
+        <!-- CORONA MEDEDELING -->
 
-    <!-- BOODSCHAPPEN LINKS -->
+        <a href="" class='mededelingen'>
+          <img src="media/anderhalve_meter.jpg" alt="illustratie met anderhalve meter mededeling">
+          <section>
+            <h3>Samen blijven we alert.</h3>
+            <p>Boodschappen doen in coronatijd ></p>
+          </section>
+        </a>
 
-      <button>Boodschappen
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="41.926" viewBox="0 0 71.555 41.926">
-             <path data-name="Path 4" d="M177.9,374.548l29.219,29.55L177.9,433.375" transform="translate(439.739 -171.539) rotate(90)" fill="none" stroke="#303030" stroke-linecap="round" stroke-width="14"/>
-          </svg>
-        </span>
-      </button>
-      <ul>
-        <li><a href="">Producten</a></li>
-        <li><a href="">Prijsfavorieten</a></li>
-        <li><a href="">Merken</a></li>
-        <li><a href="">Bonus</a></li>
-        <li><a href="">Bonusfolder</a></li>
-        <li><a href="">Online Bestellen</a></li>
-        <li><a href="">Zakelijk bestellen</a></li>
-        <li><a href="">AH Compact</a></li>
-        <li><a href="">Bezorgbundel</a></li>
-        <li><a href="">Gratis bezorging</a></li>
+        <!-- ONLINE BOODSCAPPEN DOEN MEDEDELING -->
+
+        <a href="" class='mededelingen'>
+          <img src="media/online_bezorging.png" alt="illustratie met anderhalve meter mededeling">
+          <section>
+            <h3>We bezorgen tijdelijk ook op zondag je boodschappen.</h3>
+            <p>Kies jouw bezorgmoment ></p>
+          </section>
+        </a>
+
+      </section>
+  <!-- *****************************************************************************************************
+                          RECEPTEN LIJST
+  *****************************************************************************************************   -->
+      <section class='recepten'>
+        <h2>Wat eten we vandaag?</h2>
+        <ul>
+
+          <!-- RECEPT 1-->
+
+          <li>
+            <a href="">
+              <img class='cover_image_recepten' src="media/foto_voedsel/erwtensoep.jpg" alt="Foto Erwtensoep">
+              <div>
+                <img src="media/icons/time_icon.png" alt="klok icoon">
+                <p>75 min</p>
+                <img src="media/icons/fire_icon.png" alt="Vuur icoon">
+                <p>725 kcal</p>
+              </div>
+              <h3>Erwtensoep met chorizo en kikkererwten</h3>
+            </a>
+          </li>
+
+          <!-- RECEPT 2-->
+
+          <li>
+            <a href="">
+              <img class='cover_image_recepten' src="media/foto_voedsel/lasagne.jpg" alt="Foto preilasagne">
+              <div>
+                <img src="media/icons/time_icon.png" alt="klok icoon">
+                <p>30 min</p>
+                <img src="media/icons/fire_icon.png" alt="Vuur icoon">
+                <p>980 kcal</p>
+              </div>
+              <h3>Preilasagne met spek</h3>
+            </a>
+          </li>
+        </ul>
+        <a class='full_size_button' href=""> Naar meer "Wat eten we vandaag?" recepten</a>
+      </section>
+
+      <!-- *****************************************************************************************************
+                              UITGEBREID SHOPPEN LIJST
+      *****************************************************************************************************   -->
+
+      <section class='uitgebreid_shoppen'>
+        <h2>Uitgebreid shoppen</h2>
+        <ul>
+          <li class="uitgebreid_shoppen_li_1">
+            <a href="">
+              <div>
+                <h3>Ga stralend december in.</h3>
+                <p>Bekijk de actieproducten<span><img src="media/icons/arrow.png" alt="arrow"></span></p>
+              </div>
+              <img src="media/uitgebreid_shoppen/nivea_promo.png" alt="Niveau producten tot 50% korting">
+            </a>
+          </li>
+          <li class="uitgebreid_shoppen_li_2">
+            <a href="">
+              <div>
+                <h3>Ga stralend december in.</h3>
+                <p>Bestel de mooiste wijncadeaus<span><img src="media/icons/arrow.png" alt="arrow"></span></p>
+              </div>
+              <img src="media/uitgebreid_shoppen/wijn_promo.png" alt="Niveau producten tot 50% korting">
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- *****************************************************************************************************
+                                                FOOTER
+    *****************************************************************************************************   -->
+
+    <footer>
+
+  <!-- LINKS -->
+
+      <section class="root_links">
+
+      <!-- BOODSCHAPPEN LINKS -->
+
+        <button>Boodschappen
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="41.926" viewBox="0 0 71.555 41.926">
+               <path data-name="Path 4" d="M177.9,374.548l29.219,29.55L177.9,433.375" transform="translate(439.739 -171.539) rotate(90)" fill="none" stroke="#303030" stroke-linecap="round" stroke-width="14"/>
+            </svg>
+          </span>
+        </button>
+        <ul>
+          <li><a href="">Producten</a></li>
+          <li><a href="">Prijsfavorieten</a></li>
+          <li><a href="">Merken</a></li>
+          <li><a href="">Bonus</a></li>
+          <li><a href="">Bonusfolder</a></li>
+          <li><a href="">Online Bestellen</a></li>
+          <li><a href="">Zakelijk bestellen</a></li>
+          <li><a href="">AH Compact</a></li>
+          <li><a href="">Bezorgbundel</a></li>
+          <li><a href="">Gratis bezorging</a></li>
+        </ul>
+
+        <!-- ALLERHANDE LINKS -->
+
+        <button>Allerhande
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="41.926" viewBox="0 0 71.555 41.926">
+               <path data-name="Path 4" d="M177.9,374.548l29.219,29.55L177.9,433.375" transform="translate(439.739 -171.539) rotate(90)" fill="none" stroke="#303030" stroke-linecap="round" stroke-width="14"/>
+            </svg>
+          </span>
+        </button>
+        <ul>
+          <li><a href="">Over Allerhande</a></li>
+          <li><a href="">Wat eten we vandaag?</a></li>
+          <li><a href="">Gezonde recepten</a></li>
+          <li><a href="">Snelle recepten</a></li>
+          <li><a href="">Koolhydraatarme recepten</a></li>
+          <li><a href="">Budgetrecepten</a></li>
+          <li><a href="">Alle recepten</a></li>
+          <li><a href="">Alle thema's</a></li>
+          <li><a href="">Mijn recepten</a></li>
+        </ul>
+
+        <!-- SERVICES LINKS -->
+
+        <button>Services
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="41.926" viewBox="0 0 71.555 41.926">
+               <path data-name="Path 4" d="M177.9,374.548l29.219,29.55L177.9,433.375" transform="translate(439.739 -171.539) rotate(90)" fill="none" stroke="#303030" stroke-linecap="round" stroke-width="14"/>
+            </svg>
+          </span>
+        </button>
+        <ul>
+          <li><a href="">Klantenservice</a></li>
+          <li><a href="">Winkelservices</a></li>
+          <li><a href="">Airmiles</a></li>
+          <li><a href="">Ticketshop</a></li>
+          <li><a href="">Kwaliteitsgarantie</a></li>
+          <li><a href="">Versgarantie</a></li>
+          <li><a href="">Duurzaamheid</a></li>
+        </ul>
+
+        <!-- ALBERT HEIJN LINKS -->
+
+        <button>Albert Heijn
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="41.926" viewBox="0 0 71.555 41.926">
+               <path data-name="Path 4" d="M177.9,374.548l29.219,29.55L177.9,433.375" transform="translate(439.739 -171.539) rotate(90)" fill="none" stroke="#303030" stroke-linecap="round" stroke-width="14"/>
+            </svg>
+          </span>
+        </button>
+        <ul>
+          <li><a href="">Over Albert Heijn</a></li>
+          <li><a href="">Albert Heijn app</a></li>
+          <li><a href="">Winkels</a></li>
+          <li><a href="">AH België</a></li>
+          <li><a href="">In de media</a></li>
+          <li><a href="">Inspiratie</a></li>
+          <li><a href="">Vacatures</a></li>
+          <li><a href="">Adverteren</a></li>
+          <li><a href="">Herroepingsrecht</a></li>
+        </ul>
+      </section>
+      <img class='footer_icoon' src="media/AH_logo.png" alt="Logo van Albert Heijn">
+
+  <!-- SOCIAL MEDIA LINKS -->
+
+      <ul class='social_media'>
+        <li>
+          <a href="https://www.facebook.com/albertheijn">
+            <img src="media/icons/social_media/facebook_icon.png" alt="Facebook icoon">
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/albertheijn">
+            <img src="media/icons/social_media/twitter_icon.png" alt="Twitter icoon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/albertheijn/">
+            <img src="media/icons/social_media/instagram_icon.png" alt="instagram icoon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/user/albertheijn">
+            <img src="media/icons/social_media/youtube_icon.png" alt="YouTube icoon">
+          </a>
+        </li>
+        <li>
+          <a href="https://nl.pinterest.com/allerhande/">
+            <img src="media/icons/social_media/pinterest_icon.png" alt="Pinterest icoon">
+          </a>
+        </li>
       </ul>
 
-      <!-- ALLERHANDE LINKS -->
+  <!-- EXTRA LINKS & KEURMERKEN -->
 
-      <button>Allerhande
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="41.926" viewBox="0 0 71.555 41.926">
-             <path data-name="Path 4" d="M177.9,374.548l29.219,29.55L177.9,433.375" transform="translate(439.739 -171.539) rotate(90)" fill="none" stroke="#303030" stroke-linecap="round" stroke-width="14"/>
-          </svg>
-        </span>
-      </button>
-      <ul>
-        <li><a href="">Over Allerhande</a></li>
-        <li><a href="">Wat eten we vandaag?</a></li>
-        <li><a href="">Gezonde recepten</a></li>
-        <li><a href="">Snelle recepten</a></li>
-        <li><a href="">Koolhydraatarme recepten</a></li>
-        <li><a href="">Budgetrecepten</a></li>
-        <li><a href="">Alle recepten</a></li>
-        <li><a href="">Alle thema's</a></li>
-        <li><a href="">Mijn recepten</a></li>
+      <ul class='extra_links'>
+        <li><a href="">Zakelijke algemene voorwaarden</a></li>
+        <li><a href="">Algemene voorwaarden</a></li>
+        <li><a href="">Bonusvoorwaarden</a></li>
+        <li><a href="">Privacybeleid</a></li>
+        <li><a href="">Cookiebeleid</a></li>
+        <li><a href="">Over AH</a></li>
+        <li><a href="">Kwetsbaarheid melden</a></li>
       </ul>
-
-      <!-- SERVICES LINKS -->
-
-      <button>Services
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="41.926" viewBox="0 0 71.555 41.926">
-             <path data-name="Path 4" d="M177.9,374.548l29.219,29.55L177.9,433.375" transform="translate(439.739 -171.539) rotate(90)" fill="none" stroke="#303030" stroke-linecap="round" stroke-width="14"/>
-          </svg>
-        </span>
-      </button>
-      <ul>
-        <li><a href="">Klantenservice</a></li>
-        <li><a href="">Winkelservices</a></li>
-        <li><a href="">Airmiles</a></li>
-        <li><a href="">Ticketshop</a></li>
-        <li><a href="">Kwaliteitsgarantie</a></li>
-        <li><a href="">Versgarantie</a></li>
-        <li><a href="">Duurzaamheid</a></li>
+      <div class='nix'>
+        <img src="media/icons/nix_18_icon.png" alt="NIX 18 logo">
+        <a href="">
+          <span>&lt; 25 jaar? Laat je legitimatie zien!</span>
+          <span>&lt; 18 jaar verkopen wij geen alcohol.</span>
+        </a>
+      </div>
+      <ul class= 'keurmerken'>
+        <li><img src="media/icons/ideal_icoon.png" alt="Ideal Logo"></li>
+        <li><img src="media/icons/pin_icoon.png" alt="Pin logo"></li>
+        <li><img src="media/icons/thuiswinkel_10_icoon.png" alt="Thuiswinkel certificaat"></li>
+        <li><img src="media/icons/thuiswinkel_icoon.png" alt="Thuiswinkel icoon"></li>
       </ul>
-
-      <!-- ALBERT HEIJN LINKS -->
-
-      <button>Albert Heijn
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="41.926" viewBox="0 0 71.555 41.926">
-             <path data-name="Path 4" d="M177.9,374.548l29.219,29.55L177.9,433.375" transform="translate(439.739 -171.539) rotate(90)" fill="none" stroke="#303030" stroke-linecap="round" stroke-width="14"/>
-          </svg>
-        </span>
-      </button>
-      <ul>
-        <li><a href="">Over Albert Heijn</a></li>
-        <li><a href="">Albert Heijn app</a></li>
-        <li><a href="">Winkels</a></li>
-        <li><a href="">AH België</a></li>
-        <li><a href="">In de media</a></li>
-        <li><a href="">Inspiratie</a></li>
-        <li><a href="">Vacatures</a></li>
-        <li><a href="">Adverteren</a></li>
-        <li><a href="">Herroepingsrecht</a></li>
-      </ul>
-    </section>
-    <img class='footer_icoon' src="media/AH_logo.png" alt="Logo van Albert Heijn">
-
-<!-- SOCIAL MEDIA LINKS -->
-
-    <ul class='social_media'>
-      <li>
-        <a href="https://www.facebook.com/albertheijn">
-          <img src="media/icons/social_media/facebook_icon.png" alt="Facebook icoon">
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/albertheijn">
-          <img src="media/icons/social_media/twitter_icon.png" alt="Twitter icoon">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/albertheijn/">
-          <img src="media/icons/social_media/instagram_icon.png" alt="instagram icoon">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/user/albertheijn">
-          <img src="media/icons/social_media/youtube_icon.png" alt="YouTube icoon">
-        </a>
-      </li>
-      <li>
-        <a href="https://nl.pinterest.com/allerhande/">
-          <img src="media/icons/social_media/pinterest_icon.png" alt="Pinterest icoon">
-        </a>
-      </li>
-    </ul>
-
-<!-- EXTRA LINKS & KEURMERKEN -->
-
-    <ul class='extra_links'>
-      <li><a href="">Zakelijke algemene voorwaarden</a></li>
-      <li><a href="">Algemene voorwaarden</a></li>
-      <li><a href="">Bonusvoorwaarden</a></li>
-      <li><a href="">Privacybeleid</a></li>
-      <li><a href="">Cookiebeleid</a></li>
-      <li><a href="">Over AH</a></li>
-      <li><a href="">Kwetsbaarheid melden</a></li>
-    </ul>
-    <div class='nix'>
-      <img src="media/icons/nix_18_icon.png" alt="NIX 18 logo">
-      <a href="">
-        <span>&lt; 25 jaar? Laat je legitimatie zien!</span>
-        <span>&lt; 18 jaar verkopen wij geen alcohol.</span>
-      </a>
-    </div>
-    <ul class= 'keurmerken'>
-      <li><img src="media/icons/ideal_icoon.png" alt="Ideal Logo"></li>
-      <li><img src="media/icons/pin_icoon.png" alt="Pin logo"></li>
-      <li><img src="media/icons/thuiswinkel_10_icoon.png" alt="Thuiswinkel certificaat"></li>
-      <li><img src="media/icons/thuiswinkel_icoon.png" alt="Thuiswinkel icoon"></li>
-    </ul>
-  </footer>
-  <script src="scripts/script.js"></script>
-
-</body>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
